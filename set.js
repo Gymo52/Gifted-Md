@@ -8,17 +8,17 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
 module.exports = { session: process.env.SESSION_ID || 'Gifted;;;',
-    PREFIXE: process.env.PREFIX || ".",
-    OWNER_NAME: process.env.OWNER_NAME || "Gifted Tech",
-    NUMERO_OWNER : process.env.OWNER_NUMBER || "254110853827", 
+    PREFIXE: process.env.PREFIX || "?",
+    OWNER_NAME: process.env.OWNER_NAME || "Caesar",
+    NUMERO_OWNER : process.env.OWNER_NUMBER || "2348078112891", 
              
-    AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
+    AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "no",
 AUTOREAD_MESSAGES: process.env.AUTO_READ_MESSAGES || "no",
 CHATBOT: process.env.CHAT_BOT || "no",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',
-    BOT : process.env.BOT_NAME || 'ɢɪғᴛᴇᴅ-ᴍᴅ',
+    BOT : process.env.BOT_NAME || 'C̶a̶e̶s̶a̶r̶-̶M̶d̶',
     OPENAI_API_KEY : process.env.OPENAI_API_KEY || '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',
-    URL : process.env.BOT_MENU_LINKS || 'https://telegra.ph/file/a202f454c9532c3f5b7f8.jpg',
+    URL : process.env.BOT_MENU_LINKS || 'https://telegra.ph/file/6756c02480e4ea955e6ec.mp4',
     MODE: process.env.PUBLIC_MODE || "no",
     PM_PERMIT: process.env.PM_PERMIT || 'no',
     HEROKU_APP_NAME : process.env.HEROKU_APP_NAME,
